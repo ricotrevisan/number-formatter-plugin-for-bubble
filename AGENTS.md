@@ -23,3 +23,17 @@
 - `initialize.js` runs with `instance` and `context`
 - `update.js` runs with `instance`, `properties`, and `context`
 - if a `shared_keys` is `secure`, it is never available in the elements, only in server-side actions.
+
+## Agent skills
+
+### Issue tracker
+
+Issues and specs live in GitHub Issues. Before ticket operations, read `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Use the five default triage labels. Before triaging, read `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+This repo uses a single-context layout. Before exploring the codebase, read `docs/agents/domain.md`.
