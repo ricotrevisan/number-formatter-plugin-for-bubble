@@ -8,6 +8,13 @@
 - You can run `pled watch` to automatically encode and push when there are changes to the `src/` directory.
 - File structure: src/ contains decoded human-readable files, dist/ contains encoded Bubble JSON, lib/ contains any libraries that you might want to add to your project
 
+## Bubble apps
+
+Use the **bubble-plugin-development** skill for the shared workflow (Pled, Buildprint branching, verifying against the real Bubble UI).
+
+- Dev app: `tiptap-plugin`. Develop and verify plugin changes here. Buildprint profile `ricowtf`: run every command as `BUILDPRINT_PROFILE=ricowtf buildprint ...`.
+- Public demo pages: `nocode-to-knowcode`. Buildprint cannot access this app (Bubble free plan). Edit it in the Bubble editor, and copy new sections over from `tiptap-plugin` (see the skill's "Public demo pages").
+
 ## Key Commands & Usage
 
 - Plugin ID is stored in `.plugin_id` (committed to repo)
